@@ -1,1 +1,27 @@
-/*  your css code here. If applicable */
+body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f4f4f4;
+    }
+
+    .center-box {
+        width: 200px;
+        height: 200px;
+        background-color: lightblue;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative; 
+    }
+
+    .center-text {
+        color: purple;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
